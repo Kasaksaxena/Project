@@ -5,6 +5,7 @@ def home(request):
     return render(request,'home.html')
 
 def men(request):
+    print("men page accessed")
     return render(request,'men.html')
 
 def women(request):
