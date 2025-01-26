@@ -1,0 +1,96 @@
+/* Navbar styling */
+.navbar {
+    padding: 1rem 2rem; /* Add spacing inside the navbar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for better visuals */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Increase brand font size */
+    font-weight: bold;
+    color: #ffc107 !important; /* Custom color for the brand */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important; /* Make nav-links white */
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #ffc107 !important; /* Highlight on hover or active */
+    text-decoration: underline; /* Add underline effect */
+}
+
+/* Buttons customization */
+.btn {
+    padding: 8px 16px;
+    border-radius: 20px; /* Rounded buttons */
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-success {
+    border-color: #28a745;
+    color: #28a745;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Responsive behavior fixes */
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%); /* Make the icon white */
+}
+
+/* Add spacing to navbar items */
+.nav-item {
+    margin: 0 5px;
+}
+.navbar{
+    padding: 0.8rem 1.5rem;
+}
+.navbar-dark{
+    background-color: #212529 !important;
+}
+.search-bar {
+    width: 60%;
+
+}
+.search-bar .form-control{
+    border-radius: 20px 0 0 20px;
+    border: 1px solid #ced4da;
+}
+.search-bar .btn{
+    border-radius: 0 20px 20px 0;
+    background-color: #48f9fa;
+}
+.nav-link{
+    font-size:1rem;
+    color:#ffffff;
+}
+.navbar-light .nav-link{
+    color:#212529 !important;
+
+}
+.navbar-light .nav-link:hover {
+    color:#0056b3 !important; /* Highlight on hover or active */
+    text-decoration: underline; /* Add underline effect */
+}

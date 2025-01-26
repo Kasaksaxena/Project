@@ -1,14 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StyleStation</title>
-</head>
-<body>
-    <h1>Welcome to StyleStation</h1>
-    <p>Your go to site for the latest fashion</P>
-        
-    
-</body>
-</html>
+{% extends 'base.html' %}
+{% block content %}
+
+<h1 class="text-center">Welcome to KMart</h1>
+<p class="text-center">Shop from a wide range of products for men, women, and kids.</p>
+<div class="row mt-4">
+    <div class="col-md-4 text-center">
+        <a href="{% url 'men' %}" class="btn btn-primary">Shop for Men</a>
+    </div>
+    <div class="col-md-4 text-center">
+        <a href="{% url 'women' %}" class="btn btn-primary">Shop for Women</a>
+    </div>
+
+</div>
+{% endblock %}
